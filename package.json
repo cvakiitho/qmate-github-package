@@ -1,0 +1,22 @@
+{
+  "name": "qmate",
+  "version": "1.0.2",
+  "description": "github.com redirection for qmate",
+  "main": "index.js",
+  "scripts": {
+    "postprepare": "npm config set registry https://int.repositories.cloud.sap/artifactory/api/npm/build-milestones-npm/ && npm install -g qmate"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/cvakiitho/qmate-github-package"
+  },
+  "keywords": [
+    "qmate",
+    "wdio"
+  ],
+  "author": "Tomas Hartmann",
+  "license": "ISC",
+  "dependencies": {
+    "qmate": "^1.3.2"
+  }
+}
